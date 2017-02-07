@@ -11,16 +11,16 @@ operando2 = sys.argv[3]
 
 
 def sumar(operando1,operando2):
-	return(int(operando1) + int(operando2))
+	return(float(operando1) + float(operando2))
 
 def restar(operando1,operando2):
-	return(int(operando1) - int(operando2))
+	return(float(operando1) - float(operando2))
 
 def multiplicar(operando1,operando2):
-	return(int(operando1) * int(operando2))
+	return(float(operando1) * float(operando2))
 
 def dividir(operando1,operando2):
-	return(int(operando1) / int(operando2))
+	return(float(operando1) / float(operando2))
 
 try:
 	if operacion == 'suma':
